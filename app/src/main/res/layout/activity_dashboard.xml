@@ -13,6 +13,7 @@
         android:layout_height="match_parent">
         <!-- Tambahkan konten utama di sini -->
 
+
     </FrameLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -39,7 +40,38 @@
             android:layout_marginLeft="20dp"
             android:textColor="@color/black"/>
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Ayam"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"/>
 
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Pakan"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data OVK"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"/>
 
     </com.google.android.material.navigation.NavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
