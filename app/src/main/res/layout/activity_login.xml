@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/LOGIN"
     tools:context=".login">
 
     <EditText
@@ -16,12 +15,13 @@
         android:layout_marginTop="12dp"
         android:height="40dp"
         android:background="@color/design_default_color_background"
-        android:hint="Username"
+        android:hint="@string/username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TextFields"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editText"
@@ -30,18 +30,20 @@
         android:layout_marginTop="16dp"
         android:height="40dp"
         android:background="@color/design_default_color_background"
-        android:hint="Username"
+        android:hint="@string/user"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextUsername"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TextFields"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/loginn"
+        android:background="#68DF68"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -55,9 +57,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="256dp"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:textStyle="bold"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

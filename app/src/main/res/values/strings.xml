@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">phitix</string>
+    <string name="login">LOGIN</string>
+    <string name="loginn">Login</string>
+    <string name="user">Username</string>
+    <string name="username">Username</string>
 </resources>
