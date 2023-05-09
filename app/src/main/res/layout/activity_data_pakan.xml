@@ -1,9 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#FFC107"
     tools:context=".DataPakan">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:background="@drawable/round3"
+        android:drawablePadding="5dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="10dp">
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Nomor"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="10dp"
+        android:text="Nama"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:background="@drawable/round3"
+        android:inputType="text"
+        android:maxLength="20"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/editText2"
+        android:layout_below="@id/editText2"
+        android:layout_marginTop="10dp"
+        android:text="Tanggal Lahir"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_alignLeft="@id/textView3"
+        android:background="@drawable/round3"
+        android:inputType="date"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="10dp"
+        android:text="Jenis Kelamin"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_alignLeft="@id/textView4"
+        android:background="@drawable/round3"
+        android:hint="L atau P"
+        android:inputType="text"
+        android:maxLength="1"
+        android:padding="10dp"/>
+
+
+</RelativeLayout>
