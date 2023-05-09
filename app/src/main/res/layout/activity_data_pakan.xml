@@ -20,19 +20,21 @@
         android:layout_alignLeft="@+id/textView1"
         android:background="@drawable/round3"
         android:drawablePadding="5dp"
+        android:hint="dd/MM/yyyy"
         android:inputType="number"
         android:maxLength="10"
         android:padding="10dp">
 
         <requestFocus />
     </EditText>
+
     <TextView
         android:id="@id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="Nomor"/>
+        android:text="Tanggal Pembelian" />
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -69,7 +71,7 @@
         android:layout_alignLeft="@id/textView3"
         android:background="@drawable/round3"
         android:inputType="date"
-        android:padding="10dp"/>
+        android:padding="10dp" />
 
     <TextView
         android:id="@+id/textView4"
