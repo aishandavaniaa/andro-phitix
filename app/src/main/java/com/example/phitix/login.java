@@ -22,9 +22,11 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(getApplicationContext(), dashboard.class);
-                startActivity(intent);
+                Intent toHome = new Intent(login.this, MainActivity.class);
+                startActivity(toHome);
             }
         });
     }
 }
+
+

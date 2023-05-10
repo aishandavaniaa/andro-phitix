@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuDashboard"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Dashboard"/>
+
+    <item android:id="@+id/menuDataAyam"
+        android:icon="@drawable/chicken"
+        android:title="Data Ayam"/>
+
+    <item android:id="@+id/menuDataPakan"
+        android:icon="@drawable/farmhouse"
+        android:title="Data Pakan"/>
+
+    <item android:id="@+id/menuDataOVK"
+        android:icon="@drawable/syringe"
+        android:title="Data OVK"/>
+
+    <item android:id="@+id/Logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"/>
+</menu>

@@ -3,16 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/drawable/green_button.xml" value="0.158" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.158" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/drawable/round.xml" value="0.158" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/drawable/round2.xml" value="0.158" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/drawable/round3.xml" value="0.158" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/layout/activity_data_pakan.xml" value="0.264" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/MARISA SETYA/AndroidStudioProjects/andro-phitix/app/src/main/res/layout/activity_round3.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/drawable/green_button.xml" value="0.241" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/drawable/round.xml" value="0.1925" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/drawable/round2.xml" value="0.1935" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/drawable/round3.xml" value="0.2405" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/drawable/round_dashboard.xml" value="0.2395" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/activity_dashboard.xml" value="0.18556701030927836" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/activity_data_pakan.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/activity_main.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/activity_main2.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/fragment_first.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/fragment_second.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/layout/layout_bavigation_header.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/phitix/app/src/main/res/menu/navigation_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
