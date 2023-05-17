@@ -10,7 +10,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools2:ignore="ExtraText">
         
         <LinearLayout
             android:id="@+id/layoutToolBar"
@@ -40,10 +41,10 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
-                />
+
     </LinearLayout>
 
-        <fragment
+        <androidx.fragment.app.FragmentTabHost
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layout_constraintTop_toBottomOf="@id/layoutToolBar"
@@ -51,7 +52,8 @@
             android:id="@+id/navHostFragment"
             android:name="androidx.navigation.fragment.NavHost.Fragment"
             app:defaultNavHost="true"
-            tools2:ignore="MissingClass" />
+            app:navGraph="@navigation/main"
+            tools2:ignore="FragmentTagUsage,MissingClass" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

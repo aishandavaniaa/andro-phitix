@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuDashboard">
+
+    <fragment
+        android:id="@+id/menuDashboard"
+        android:name="com.example.phitix.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/menuDataAyam"
+        android:name="com.example.phitix.DataAyamFragment"
+        android:label="data_ayam"
+        tools:layout="@layout/fragment_data_ayam" />
+</navigation>
